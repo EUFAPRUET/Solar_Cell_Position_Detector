@@ -1,2 +1,2 @@
-# CPE-414_2567-2_Solar_Cell_Position_Detector
+# CPE-414 Solar Cell Positon Detector
 <a id="readme-top"></a>
