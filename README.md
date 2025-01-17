@@ -6,5 +6,5 @@
   <h1>Solar Cell Postion Detector</h1>
   
   <p>
-    An RTOS Project With Raspberry Pi 5 And Deep Learning
+    RTOS Project With Raspberry Pi 5 & Deep Learning
   </p>
