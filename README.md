@@ -10,5 +10,8 @@
   </p>
   
   <h2>Requirement</h2>
+  <p> 
+    - The system captures real-time images of the sky using a camera module.
+  </p>
 </div>
 
