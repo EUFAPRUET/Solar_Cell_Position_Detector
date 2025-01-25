@@ -1,5 +1,5 @@
-# CPE-414 Solar Cell Positon Detector
 <a id="readme-top"></a>
+# CPE-414 Solar Cell Positon Detector
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
