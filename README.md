@@ -36,7 +36,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## :sun_with_face: About The Project
 <div align="center"><img src="Model/Solar_Cell_Position_Detector_Model_2_axis.jpg" alt="model" width="500" height="auto" /></div>
 
 ### Overview<br>
