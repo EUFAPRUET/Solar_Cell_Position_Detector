@@ -20,7 +20,7 @@
       </ul>
     </li>
     <li>
-      <a href="#requirements">Requirements</a>
+      <a href="#receipt-requirements">Requirements</a>
       <ul>
         <li><a href="#receipt-functional-requirements">Functional Requirements</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -66,8 +66,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
   - OpenCV – Image processing & tracking
   - Python (RPi.GPIO, pigpio) – Servo motor control
 
-## Requirements
-### :receipt: Functional Requirements
+## :receipt: Requirements
 1. Image Processing & Sun Detectionn
    - [x] The system captures real-time images of the sky using a camera module.
    - [x] The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
