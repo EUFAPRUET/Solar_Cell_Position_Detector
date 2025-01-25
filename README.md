@@ -34,7 +34,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 <div align="center"><img src="Model/Solar_Cell_Position_Detector_Model_2_axis.jpg" alt="model" width="500" height="auto" /></div>
 
 ### 🌞 Overview <br>
@@ -48,3 +48,4 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 3. Solar Panel Alignment
    - The system calculates the optimal tilt and rotation angle for the solar panel.
    - Servo/Stepper motors adjust the solar panel’s position to follow the sun throughout the day.
+
