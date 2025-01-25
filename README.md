@@ -5,7 +5,7 @@
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
   <h1>Solar Cell Postion Detector</h1>
   
-  <h3>RTOS Project With Raspberry Pi 5 & Deep Learning</h3>
+  <h2>RTOS Project With Raspberry Pi 5 & Deep Learning</h2>
 </div>
   
   Functional Requirements:
