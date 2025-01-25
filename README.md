@@ -10,7 +10,7 @@
   </p>
 </div>
 
-  <div align="center" ><h2>Requirement</h2></div>
+  <div align="center" ></div>
   
   Functional Requirements:
   * The system captures real-time images of the sky using a camera module.
