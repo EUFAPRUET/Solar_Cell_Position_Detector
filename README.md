@@ -8,7 +8,7 @@
   <p>RTOS Project With Raspberry Pi 5 & Deep Learning</p>
 </div>
 
-  # Requirements
+# Requirements
   Functional Requirements:
   * The system captures real-time images of the sky using a camera module.
   * The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
