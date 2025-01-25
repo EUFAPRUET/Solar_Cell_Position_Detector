@@ -6,6 +6,7 @@
   <h1>Solar Cell Postion Detector</h1>
   
   <p>RTOS Project With Raspberry Pi 5 & Deep Learning</p>
+  <h1></h1>
 </div>
   
   Functional Requirements:
