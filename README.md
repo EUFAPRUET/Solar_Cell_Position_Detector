@@ -94,3 +94,6 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 3. Scalability & Expandability
    - [ ] The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
    - [ ] The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
+4. Power Efficiency
+   - [ ] The entire system should consume minimal power, making it viable for off-grid solar applications.
+   - [ ] If possible, the Raspberry Pi and servo motors should be powered by the solar panel itself.
