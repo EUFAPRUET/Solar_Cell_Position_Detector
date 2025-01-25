@@ -55,4 +55,6 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 ### Technologies Used
+- Hardware
+  - Raspberry Pi 5 – Main processing unit
 
