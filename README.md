@@ -20,7 +20,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#requirements">Requirements</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -65,3 +65,6 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
   - Deep Learning (YOLOv5, YOLOv8, SSD-MobileNet) – Sun detection
   - OpenCV – Image processing & tracking
   - Python (RPi.GPIO, pigpio) – Servo motor control
+
+## Requirements
+
