@@ -22,7 +22,7 @@
     <li>
       <a href="#requirements">Requirements</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#functional-requirements">Functional Requirements</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
