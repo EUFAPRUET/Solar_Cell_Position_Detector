@@ -65,6 +65,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
   - Deep Learning (YOLOv5, YOLOv8, SSD-MobileNet) – Sun detection
   - OpenCV – Image processing & tracking
   - Python (RPi.GPIO, pigpio) – Servo motor control
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Requirements
 ### :receipt: Functional Requirements 
@@ -81,6 +82,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 3. System Integration & Communication
    - [x] The Raspberry Pi 5 serves as the main processing unit for image detection and motor control.
    - [x] The servo motors (Pan & Tilt) and solar panel actuator receive control signals from the Raspberry Pi via GPIO/PWM.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### :receipt: Non-Functional Requirements
 1. Performance
@@ -97,3 +99,4 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 4. Power Efficiency
    - [x] The entire system should consume minimal power, making it viable for off-grid solar applications.
    - [x] If possible, the Raspberry Pi and servo motors should be powered by the solar panel itself.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
