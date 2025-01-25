@@ -12,8 +12,9 @@
 
   <div align="center" ><h2>Requirement</h2></div>
   
-  Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+  Functional Requirements:
+    * The system captures real-time images of the sky using a camera module.
+    * The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
+    * The system calculates the offset of the sun from the center of the frame.
+    * The system continuously updates detection in real-time to track the sun’s movement.
 
