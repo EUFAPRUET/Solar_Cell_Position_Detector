@@ -84,16 +84,16 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 
 ### Non-Functional Requirements
 1. Performance
-   - [ ] The system should maintain real-time sun tracking (at least 5-10 FPS).
+   - [x] The system should maintain real-time sun tracking (at least 5-10 FPS).
    - [ ] The servo control should have minimal delay (<1 sec) to ensure smooth tracking.
    - [ ] The system should work in various lighting conditions (e.g., clear sky, cloudy conditions).
 2. Hardware Reliability
    - [ ] The camera module should handle intense sunlight without damage (e.g., using ND Filter or Solar Filter).
-   - [ ] The servo motors should be strong enough to rotate the solar panel smoothly.
-   - [ ] The Raspberry Pi should be properly powered to avoid overheating or voltage drops.
+   - [x] The servo motors should be strong enough to rotate the solar panel smoothly.
+   - [x] The Raspberry Pi should be properly powered to avoid overheating or voltage drops.
 3. Scalability & Expandability
-   - [ ] The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
-   - [ ] The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
+   - [x] The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
+   - [x] The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
 4. Power Efficiency
-   - [ ] The entire system should consume minimal power, making it viable for off-grid solar applications.
-   - [ ] If possible, the Raspberry Pi and servo motors should be powered by the solar panel itself.
+   - [x] The entire system should consume minimal power, making it viable for off-grid solar applications.
+   - [x] If possible, the Raspberry Pi and servo motors should be powered by the solar panel itself.
