@@ -14,7 +14,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#:sun_with_face:-overview">Overview</a></li>
+        <li><a href="#overview">Overview</a></li>
         <li><a href="#how-it-works">How It Works</a></li>
         <li><a href="#technologies-used">Technologies Useds</a></li>
       </ul>
