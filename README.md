@@ -22,7 +22,7 @@
     <li>
       <a href="#requirements">Requirements</a>
       <ul>
-        <li><a href="#receipt-functional-requirements">Functional Requirements</a></li>
+        <li><a href="#page_facing_up-functional-requirements">Functional Requirements</a></li>
         <li><a href="#page_with_curl-Non-Functional-Requirements">Non-Functional Requirements</a></li>
       </ul>
     </li>
@@ -66,7 +66,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Requirements
-### :receipt: Functional Requirements 
+### :page_facing_up: Functional Requirements 
 1. Image Processing & Sun Detectionn
    - [x] The system captures real-time images of the sky using a camera module.
    - [x] The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
