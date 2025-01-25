@@ -9,7 +9,7 @@
 </div>
 
 # Requirements
-  ## Functional Requirements
+  Functional Requirements :
   * The system captures real-time images of the sky using a camera module.
   * The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
   * The system calculates the offset of the sun from the center of the frame.
