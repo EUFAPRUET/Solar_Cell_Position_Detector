@@ -40,6 +40,11 @@
 ### 🌞 Overview <br>
 The Solar Cell Position Detector is an intelligent sun-tracking system designed to maximize solar energy efficiency by dynamically adjusting the position of a solar panel based on the real-time position of the sun. This project integrates Deep Learning, Computer Vision, and Servo Motor Control on a Raspberry Pi 5 to continuously track the sun and reposition the solar panel accordingly.
 ### 🔍 How It Works
-1. First list item
+1. Real-Time Sun Detection
    - A camera module captures live images of the sky.
    - A Deep Learning model (YOLO/SSD) or OpenCV-based processing detects the sun’s position.
+2. Automated Camera Tracking
+   - A servo-controlled camera dynamically adjusts its angle to keep the sun centered in the frame.
+3. Solar Panel Alignment
+   - The system calculates the optimal tilt and rotation angle for the solar panel.
+   - Servo/Stepper motors adjust the solar panel’s position to follow the sun throughout the day.
