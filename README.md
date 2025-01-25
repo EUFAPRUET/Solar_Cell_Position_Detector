@@ -36,8 +36,6 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-<br>
-
 ## About The Project
 <div align="center"><img src="Model/Solar_Cell_Position_Detector_Model_2_axis.jpg" alt="model" width="500" height="auto" /></div>
 
@@ -69,4 +67,15 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
   - Python (RPi.GPIO, pigpio) – Servo motor control
 
 ## Requirements
-
+### Functional Requirements
+1. Image Processing & Sun Detectionn
+   - The system captures real-time images of the sky using a camera module.
+   - The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
+   - The system calculates the offset of the sun from the center of the frame.
+   - The system continuously updates detection in real-time to track the sun’s movement.
+2. Servo Motor Control
+   - The system sends servo control signals based on the detected sun position.
+   - The camera module adjusts itself to keep the sun at the center of the frame.
+   - The system calculates the optimal angle for the solar panel based on the camera’s orientation.
+   - The solar panel automatically rotates and tilts to match the detected sun’s position.
+3. System Integration & Communication
