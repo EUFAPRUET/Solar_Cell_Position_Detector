@@ -23,7 +23,7 @@
       <a href="#requirements">Requirements</a>
       <ul>
         <li><a href="#receipt-functional-requirements">Functional Requirements</a></li>
-        <li><a href="#receipt-Non-Functional-Requirements">Non-Functional Requirements</a></li>
+        <li><a href="#page_with_curl-Non-Functional-Requirements">Non-Functional Requirements</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -81,7 +81,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
    - [x] The Raspberry Pi 5 serves as the main processing unit for image detection and motor control.
    - [x] The servo motors (Pan & Tilt) and solar panel actuator receive control signals from the Raspberry Pi via GPIO/PWM.
 
-### :receipt: Non-Functional Requirements
+### :page_with_curl: Non-Functional Requirements
 1. Performance
    - [x] The system should maintain real-time sun tracking (at least 5-10 FPS).
    - [ ] The servo control should have minimal delay (<1 sec) to ensure smooth tracking.
