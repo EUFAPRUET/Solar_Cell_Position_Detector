@@ -61,4 +61,9 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
   - Servo Motors – Adjust the camera and solar panel’s position
   - Solar Panel – Mounted on an adjustable tracking system
   - ND/Solar Filter – Prevents excessive sunlight damage
+- Software & AI
+  - Deep Learning (YOLOv5, YOLOv8, SSD-MobileNet) – Sun detection
+  - OpenCV – Image processing & tracking
+  - Python (RPi.GPIO, pigpio) – Servo motor control
+  - Flask/FastAPI (Optional) – Web Dashboard for real-time monitoring
 
