@@ -8,9 +8,8 @@
   <p>
     RTOS Project With Raspberry Pi 5 & Deep Learning
   </p>
+  <h1></h1>
 </div>
-
-  <div align="center" ></div>
   
   Functional Requirements:
   * The system captures real-time images of the sky using a camera module.
