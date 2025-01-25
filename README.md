@@ -74,10 +74,10 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
    - [ ] The system calculates the offset of the sun from the center of the frame.
    - [ ] The system continuously updates detection in real-time to track the sun’s movement.
 2. Servo Motor Control
-   - The system sends servo control signals based on the detected sun position.
-   - The camera module adjusts itself to keep the sun at the center of the frame.
-   - The system calculates the optimal angle for the solar panel based on the camera’s orientation.
-   - The solar panel automatically rotates and tilts to match the detected sun’s position.
+   - [ ] The system sends servo control signals based on the detected sun position.
+   - [ ] The camera module adjusts itself to keep the sun at the center of the frame.
+   - [ ] The system calculates the optimal angle for the solar panel based on the camera’s orientation.
+   - [ ] The solar panel automatically rotates and tilts to match the detected sun’s position.
 3. System Integration & Communication
-   -  The Raspberry Pi 5 serves as the main processing unit for image detection and motor control.
-   -  The servo motors (Pan & Tilt) and solar panel actuator receive control signals from the Raspberry Pi via GPIO/PWM.
+   - [ ] The Raspberry Pi 5 serves as the main processing unit for image detection and motor control.
+   - [ ] The servo motors (Pan & Tilt) and solar panel actuator receive control signals from the Raspberry Pi via GPIO/PWM.
