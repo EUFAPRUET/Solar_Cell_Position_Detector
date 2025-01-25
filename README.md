@@ -81,4 +81,3 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 3. System Integration & Communication
    -  The Raspberry Pi 5 serves as the main processing unit for image detection and motor control.
    -  The servo motors (Pan & Tilt) and solar panel actuator receive control signals from the Raspberry Pi via GPIO/PWM.
-   -  If implemented, the system can log real-time sun position data into a database or cloud storage.
