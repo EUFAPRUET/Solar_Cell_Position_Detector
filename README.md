@@ -16,6 +16,7 @@
       <ul>
         <li><a href="#overview">Overview</a></li>
         <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#technologies-used">Technologies Useds</a></li>
       </ul>
     </li>
     <li>
@@ -53,5 +54,5 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
    - Servo/Stepper motors adjust the solar panel’s position to follow the sun throughout the day.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
-### 🔧 Technologies Used
+### Technologies Used
 
