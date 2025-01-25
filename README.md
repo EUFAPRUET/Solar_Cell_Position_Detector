@@ -23,7 +23,7 @@
       <a href="#requirements">Requirements</a>
       <ul>
         <li><a href="#receipt-functional-requirements">Functional Requirements</a></li>
-        <li><a href="#receipt-Non-Functional-Requirements">Functional Requirements</a></li>
+        <li><a href="#receipt-Non-Functional-Requirements">Non-Functional Requirements</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
