@@ -16,7 +16,7 @@
       <ul>
         <li><a href="#sun_with_face-Overview">Overview</a></li>
         <li><a href="#mag-how-it-works">How It Works</a></li>
-        <li><a href="#technologies-used">Technologies Useds</a></li>
+        <li><a href="#wrench-technologies-used">Technologies Useds</a></li>
       </ul>
     </li>
     <li>
@@ -54,11 +54,11 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
    - Servo/Stepper motors adjust the solar panel’s position to follow the sun throughout the day.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
-### Technologies Used
+### :wrench: Technologies Used
 - Hardware
-  - [x] Raspberry Pi 5 – Main processing unit
-  - [x] Camera Module – Captures real-time images
-  - [x] Servo Motors – Adjust the camera and solar panel’s position
-  - [x] Solar Panel – Mounted on an adjustable tracking system
-  - [x] ND/Solar Filter – Prevents excessive sunlight damage
+  - Raspberry Pi 5 – Main processing unit
+  - Camera Module – Captures real-time images
+  - Servo Motors – Adjust the camera and solar panel’s position
+  - Solar Panel – Mounted on an adjustable tracking system
+  - ND/Solar Filter – Prevents excessive sunlight damage
 
