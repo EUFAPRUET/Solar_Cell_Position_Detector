@@ -51,7 +51,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 3. Solar Panel Alignment
    - The system calculates the optimal tilt and rotation angle for the solar panel.
    - Servo/Stepper motors adjust the solar panel’s position to follow the sun throughout the day.
-   - <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 ### 🔧 Technologies Used
 
