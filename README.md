@@ -69,10 +69,10 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 ## Requirements
 ### Functional Requirements
 1. Image Processing & Sun Detectionn
-   - The system captures real-time images of the sky using a camera module.
-   - The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
-   - The system calculates the offset of the sun from the center of the frame.
-   - The system continuously updates detection in real-time to track the sun’s movement.
+   - [x] The system captures real-time images of the sky using a camera module.
+   - [ ] The system detects the sun’s position in the image using a trained Deep Learning model (YOLO/SSD) or image processing techniques (OpenCV-based filtering, Hough Transform, etc.).
+   - [ ] The system calculates the offset of the sun from the center of the frame.
+   - [ ] The system continuously updates detection in real-time to track the sun’s movement.
 2. Servo Motor Control
    - The system sends servo control signals based on the detected sun position.
    - The camera module adjusts itself to keep the sun at the center of the frame.
