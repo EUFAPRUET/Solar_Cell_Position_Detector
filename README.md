@@ -15,7 +15,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#overview">Overview</a></li>
-        <li><a href="#howitworks">How It Works</a></li>
+        <li><a href="#How It Works">How It Works</a></li>
       </ul>
     </li>
     <li>
