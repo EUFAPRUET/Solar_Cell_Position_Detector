@@ -91,6 +91,6 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
    - [ ] The camera module should handle intense sunlight without damage (e.g., using ND Filter or Solar Filter).
    - [ ] The servo motors should be strong enough to rotate the solar panel smoothly.
    - [ ] The Raspberry Pi should be properly powered to avoid overheating or voltage drops.
-3. System Integration & Communication
-   - [x] The Raspberry Pi 5 serves as the main processing unit for image detection and motor control.
-   - [x] The servo motors (Pan & Tilt) and solar panel actuator receive control signals from the Raspberry Pi via GPIO/PWM.
+3. Scalability & Expandability
+   - [ ] The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
+   - [ ] The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
