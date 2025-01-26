@@ -2,7 +2,7 @@
 # CPE-414 Solar Cell Positon Detector
 <div align="center">
 
-  <div align="center"><img src="Model/Solar_Cell_Position_Detector_Model_2_axis.jpg" alt="model" width="500" height="auto" /></div>
+  <img src="assets/logo.png" alt="logo" width="500" height="auto" />
   <h1>Solar Cell Postion Detector</h1>
   
   <p>RTOS Project With Raspberry Pi 5 & Deep Learning</p>
@@ -37,6 +37,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center"><img src="Model/Solar_Cell_Position_Detector_Model_2_axis.jpg" alt="model" width="500" height="auto" /></div>
 
 ### :sun_with_face: Overview<br>
 The Solar Cell Position Detector is an intelligent sun-tracking system designed to maximize solar energy efficiency by dynamically adjusting the position of a solar panel based on the real-time position of the sun. This project integrates Deep Learning, Computer Vision, and Servo Motor Control on a Raspberry Pi 5 to continuously track the sun and reposition the solar panel accordingly.
