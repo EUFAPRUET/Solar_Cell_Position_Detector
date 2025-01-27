@@ -22,16 +22,17 @@
     <li>
       <a href="#requirements">Requirements</a>
       <ul>
+        <li><a href="#open_file_folder-dataset-selection & Usage">Dataset Selection & Usage</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#dataset-references">Dataset References</a>
+      <ul>
         <li><a href="#page_facing_up-functional-requirements">Functional Requirements</a></li>
         <li><a href="#page_with_curl-Non-Functional-Requirements">Non-Functional Requirements</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    
   </ol>
 </details>
 
@@ -98,5 +99,6 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
    - If possible, the Raspberry Pi and servo motors should be powered by the solar panel itself.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## DataSet
+## Dataset References
+### :open_file_folder: Dataset Selection & Usage
 Sun [Dataset](https://universe.roboflow.com/scene/sun_detection).
