@@ -124,7 +124,7 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
 
 ### :hammer_and_wrench: Dataset Preprocessing And Annotation
 1. Labeling the Dataset
-   <br>For Deep Learning Object Detection Models (YOLO, SSD, Faster R-CNN, etc.), each image is annotated with bounding boxes around the sun.
+   <br>For Deep Learning Object Detection Models (YOLO, SSD, etc.), each image is annotated with bounding boxes around the sun.
    - Annotation Tools:
      - [LabelImg](https://github.com/HumanSignal/labelImg) (Manual bounding box annotation)
      - [Roboflow](https://roboflow.com/) (Dataset management & augmentation)
