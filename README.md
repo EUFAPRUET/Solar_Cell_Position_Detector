@@ -126,17 +126,15 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
    <br>For Deep Learning Object Detection Models (YOLO, SSD, Faster R-CNN, etc.), each image is annotated with bounding boxes around the sun.
    - Annotation Tools:
      - [LabelImg](https://github.com/HumanSignal/labelImg) (Manual bounding box annotation)
-   - [Kaggle](https://www.kaggle.com/datasets/khushipitroda/sun-and-moon-images) - High-resolution moon.
-   - Weather & Atmospheric Image Databases - Various sources providing satellite and sky images.
-3. Custom Dataset (Self-Collected)
-   <br>If no suitable public dataset exists, we collect images manually:
-   - Capturing real-time sky images using the Raspberry Pi Camera Module at different times of the day.
-   - Data collected under various weather conditions (clear sky, cloudy, sunrise, sunset).
-   - Ensuring diverse dataset coverage for better generalization in real-world applications.
-4. Synthetic Data & Augmentation
-   <br>To increase dataset robustness, we apply:
-   - Data Augmentation: Adjusting brightness, contrast, blurring, rotation, and noise.
-   - Synthetic Image Generation: Simulating sun positions in different sky environments.
+     - [Roboflow](https://roboflow.com/) (Dataset management & augmentation)
+2. Dataset Format
+   - Image Formats: .jpg, .png
+   - Annotation Formats: .txt (YOLO format), .xml (Pascal VOC), .json (COCO format)
+3. Dataset Splitting Strategy
+   | Dataset Partition  | Percentage |
+   | Training Data | 80% |
+   | Validation Data  | 10%  |
+   | Testing Data  | 10%  |
   
 
 <br>Sun datasets [Link](https://universe.roboflow.com/scene/sun_detection).
