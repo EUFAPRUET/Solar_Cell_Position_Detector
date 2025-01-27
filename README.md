@@ -104,4 +104,17 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 ### :open_file_folder: Dataset Selection And Usage
 The Solar Cell Position Detector requires a high-quality dataset to train its Deep Learning model for accurate real-time sun detection under various lighting and weather conditions. The dataset selection and preprocessing are crucial to ensuring reliable tracking performance.
 ### :bar_chart: Dataset Types
+1. Open Datasets (Public Sources)
+   If available, publicly accessible datasets can be used to improve model accuracy:
+   - [Roboflow Universe](https://universe.roboflow.com/scene/sun_detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true) - Contains various images of the sky and sun.
+   - NASA Solar Observation Datasets - High-resolution solar imagery from NASA.
+   - Weather & Atmospheric Image Databases - Various sources providing satellite and sky images.
+3. Hardware Reliability
+   - The camera module should handle intense sunlight without damage (e.g., using ND Filter or Solar Filter).
+   - The servo motors should be strong enough to rotate the solar panel smoothly.
+   - The Raspberry Pi should be properly powered to avoid overheating or voltage drops.
+4. Scalability & Expandability
+   - The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
+   - The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
+
 <br>Sun datasets [Link](https://universe.roboflow.com/scene/sun_detection).
