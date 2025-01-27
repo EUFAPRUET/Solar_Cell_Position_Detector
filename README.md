@@ -108,8 +108,9 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
 ### :bar_chart: Dataset Types
 1. Open Datasets (Public Sources)
    <br>If available, publicly accessible datasets can be used to improve model accuracy:
-   - [sun_detection Computer Vision Project](https://universe.roboflow.com/scene/sun_detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true) - Contains various images of the sky and sun.
-   - [Kaggle](https://www.kaggle.com/datasets/khushipitroda/sun-and-moon-images) - Contains various images of the sky, sun and moon.
+   - [Roboflow Universe-sun_detection Computer Vision Project](https://universe.roboflow.com/scene/sun_detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true) - Contains various images of the sky and sun.
+   - [Roboflow Universe-Sun Tracking Computer Vision Project](https://universe.roboflow.com/suntrack/sun-tracking/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true) - Contains various images of the sky and sun.
+   - [Kaggle-Sun and moon images ](https://www.kaggle.com/datasets/khushipitroda/sun-and-moon-images) - Contains various images of the sky, sun and moon.
    - Weather & Atmospheric Image Databases - Various sources providing satellite and sky images.
 2. Custom Dataset (Self-Collected)
    <br>If no suitable public dataset exists, we collect images manually:
