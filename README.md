@@ -22,14 +22,14 @@
     <li>
       <a href="#requirements">Requirements</a>
       <ul>
-        <li><a href="#open_file_folder-dataset-selection & Usage">Dataset Selection & Usage</a></li>
+        <li><a href="#page_facing_up-functional-requirements">Functional Requirements</a></li>
+        <li><a href="#page_with_curl-Non-Functional-Requirements">Non-Functional Requirements</a></li>
       </ul>
     </li>
     <li>
       <a href="#dataset-references">Dataset References</a>
       <ul>
-        <li><a href="#page_facing_up-functional-requirements">Functional Requirements</a></li>
-        <li><a href="#page_with_curl-Non-Functional-Requirements">Non-Functional Requirements</a></li>
+        <li><a href="#open_file_folder-dataset-selection & Usage">Dataset Selection & Usage</a></li>
       </ul>
     </li>
     
