@@ -131,7 +131,7 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
    - Image Formats: .jpg, .png
    - Annotation Formats: .txt (YOLO format), .xml (Pascal VOC), .json (COCO format)
 3. Dataset Splitting Strategy <br><br>
-   | Dataset Partition  | Percentage |
+   -| Dataset Partition  | Percentage |
    | ------------- | ------------- |
    | Training Data | 80% |
    | Validation Data  | 10%  |
