@@ -29,7 +29,7 @@
     <li>
       <a href="#dataset-references">Dataset References</a>
       <ul>
-        <li><a href="open_file_folder-dataset-selection-&-usage">Dataset Selection & Usage</a></li>
+        <li><a href="open_file_folder-dataset-selection-usage">Dataset Selection & Usage</a></li>
       </ul>
     </li>
     
