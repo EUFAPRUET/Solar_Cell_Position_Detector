@@ -105,12 +105,12 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 The Solar Cell Position Detector requires a high-quality dataset to train its Deep Learning model for accurate real-time sun detection under various lighting and weather conditions. The dataset selection and preprocessing are crucial to ensuring reliable tracking performance.
 ### :bar_chart: Dataset Types
 1. Open Datasets (Public Sources)
-   If available, publicly accessible datasets can be used to improve model accuracy:
+   <br>If available, publicly accessible datasets can be used to improve model accuracy:
    - [Roboflow Universe](https://universe.roboflow.com/scene/sun_detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true) - Contains various images of the sky and sun.
    - [Kaggle](https://www.kaggle.com/datasets/khushipitroda/sun-and-moon-images) - High-resolution moon.
    - Weather & Atmospheric Image Databases - Various sources providing satellite and sky images.
 2. Custom Dataset (Self-Collected)
-   If no suitable public dataset exists, we collect images manually:
+   <br>If no suitable public dataset exists, we collect images manually:
    - Capturing real-time sky images using the Raspberry Pi Camera Module at different times of the day.
    - Data collected under various weather conditions (clear sky, cloudy, sunrise, sunset).
    - Ensuring diverse dataset coverage for better generalization in real-world applications.
