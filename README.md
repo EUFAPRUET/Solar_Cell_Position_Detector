@@ -107,13 +107,14 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
 1. Open Datasets (Public Sources)
    If available, publicly accessible datasets can be used to improve model accuracy:
    - [Roboflow Universe](https://universe.roboflow.com/scene/sun_detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true) - Contains various images of the sky and sun.
-   - NASA Solar Observation Datasets - High-resolution solar imagery from NASA.
+   - [Kaggle](https://www.kaggle.com/datasets/khushipitroda/sun-and-moon-images) - High-resolution moon.
    - Weather & Atmospheric Image Databases - Various sources providing satellite and sky images.
-3. Hardware Reliability
-   - The camera module should handle intense sunlight without damage (e.g., using ND Filter or Solar Filter).
-   - The servo motors should be strong enough to rotate the solar panel smoothly.
-   - The Raspberry Pi should be properly powered to avoid overheating or voltage drops.
-4. Scalability & Expandability
+2. Custom Dataset (Self-Collected)
+   If no suitable public dataset exists, we collect images manually:
+   - Capturing real-time sky images using the Raspberry Pi Camera Module at different times of the day.
+   - Data collected under various weather conditions (clear sky, cloudy, sunrise, sunset).
+   - Ensuring diverse dataset coverage for better generalization in real-world applications.
+5. Scalability & Expandability
    - The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
    - The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
 
