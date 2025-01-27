@@ -99,4 +99,4 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## DataSet
-Sun [Dataset]([https://pages.github.com/](https://universe.roboflow.com/scene/sun_detection)).
+Sun [Dataset](https://universe.roboflow.com/scene/sun_detection).
