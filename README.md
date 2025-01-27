@@ -30,6 +30,7 @@
       <a href="#dataset-references">Dataset References</a>
       <ul>
         <li><a href="#open_file_folder-dataset-selection-and-usage">Dataset Selection And Usage</a></li>
+        <li><a href="#bar_chart-dataset-types">Dataset Types</a></li>
       </ul>
     </li>
     
@@ -101,5 +102,6 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 
 ## Dataset References
 ### :open_file_folder: Dataset Selection And Usage
-The Solar Cell Position Detector requires a high-quality dataset for training its Deep Learning model to accurately detect the sun's position in various lighting and weather conditions. The dataset selection and preprocessing play a crucial role in ensuring reliable real-time sun tracking.
+The Solar Cell Position Detector requires a high-quality dataset to train its Deep Learning model for accurate real-time sun detection under various lighting and weather conditions. The dataset selection and preprocessing are crucial to ensuring reliable tracking performance.
+### :bar_chart: Dataset Types
 <br>Sun datasets [Link](https://universe.roboflow.com/scene/sun_detection).
