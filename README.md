@@ -31,6 +31,7 @@
       <ul>
         <li><a href="#open_file_folder-dataset-selection-and-usage">Dataset Selection And Usage</a></li>
         <li><a href="#bar_chart-dataset-types">Dataset Types</a></li>
+        <li><a href="#hammer_and_wrench-dataset-preprocessing-and-annotation">Dataset Preprocessing And Annotation</a></li>
       </ul>
     </li>
     
@@ -103,6 +104,7 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 ## Dataset References
 ### :open_file_folder: Dataset Selection And Usage
 The Solar Cell Position Detector requires a high-quality dataset to train its Deep Learning model for accurate real-time sun detection under various lighting and weather conditions. The dataset selection and preprocessing are crucial to ensuring reliable tracking performance.
+
 ### :bar_chart: Dataset Types
 1. Open Datasets (Public Sources)
    <br>If available, publicly accessible datasets can be used to improve model accuracy:
@@ -114,8 +116,11 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
    - Capturing real-time sky images using the Raspberry Pi Camera Module at different times of the day.
    - Data collected under various weather conditions (clear sky, cloudy, sunrise, sunset).
    - Ensuring diverse dataset coverage for better generalization in real-world applications.
-5. Scalability & Expandability
-   - The system should be modular, allowing upgrades for better AI models, additional sensors, or larger panels.
-   - The software should allow future integration with additional light sensors, cloud data logging, or an IoT dashboard.
+3. Synthetic Data & Augmentation
+   <br>To increase dataset robustness, we apply:
+   - Data Augmentation: Adjusting brightness, contrast, blurring, rotation, and noise.
+   - Synthetic Image Generation: Simulating sun positions in different sky environments.
+
+### :hammer_and_wrench: Dataset Preprocessing And Annotation
 
 <br>Sun datasets [Link](https://universe.roboflow.com/scene/sun_detection).
