@@ -29,7 +29,7 @@
     <li>
       <a href="#dataset-references">Dataset References</a>
       <ul>
-        <li><a href="#open_file_folder-dataset-selection-&-usage">Dataset Selection & Usage</a></li>
+        <li><a href="#open_file_folder-dataset-selection-and-usage">Dataset Selection & Usage</a></li>
       </ul>
     </li>
     
@@ -100,5 +100,5 @@ The Solar Cell Position Detector is an intelligent sun-tracking system designed 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Dataset References
-### :open_file_folder: Dataset Selection & Usage
+### :open_file_folder: Dataset Selection And Usage
 Sun [Dataset](https://universe.roboflow.com/scene/sun_detection).
