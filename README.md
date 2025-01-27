@@ -137,6 +137,3 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
    | Training Data | 80% |
    | Validation Data  | 10%  |
    | Testing Data  | 10%  |
-  
-
-<br>Sun datasets [Link](https://universe.roboflow.com/scene/sun_detection).
