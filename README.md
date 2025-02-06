@@ -179,7 +179,7 @@ Training Environment:
 
 
 
-[titichaya](https://github.com/titichaya) - Adviser
+[@titichaya](https://github.com/titichaya) - Adviser
 [@EUFAPRUET](https://github.com/EUFAPRUET) - Hardware Developer
 [@TechTnKorn](https://github.com/TechTnKorn) - Ai Developer
 [@ukp_alex](https://github.com/UkpAlex) - Ai Developer
