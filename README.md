@@ -141,3 +141,7 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
 
 ## YOLO Model for Sun Detection
 ### :bookmark: Model Selection
+For sun detection, we utilized YOLOv8 Nano, a lightweight yet powerful model optimized for real-time object detection on edge devices like the Raspberry Pi 5. This model was selected due to its:
+- High detection accuracy even in varied lighting conditions.
+- Fast inference time suitable for real-time applications.
+- Compatibility with resource-constrained hardware.
