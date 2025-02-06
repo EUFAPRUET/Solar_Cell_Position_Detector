@@ -208,7 +208,7 @@ Training Environment:
 
 
 ## Research & Development Team
-### AI Developers: [@TechTnKorn](https://github.com/TechTnKorn) [@ukp_alex](https://github.com/UkpAlex)
+### AI Developers: [@TechTnKorn](https://github.com/TechTnKorn), [@ukp_alex](https://github.com/UkpAlex)
   - Develop and train the YOLOv8 model for real-time sun detection
   - Optimize the model for efficient performance on Raspberry Pi 5
   - Implement OpenCV-based image processing to enhance detection accuracy
