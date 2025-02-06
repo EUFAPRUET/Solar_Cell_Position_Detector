@@ -181,4 +181,4 @@ Training Environment:
 
 
 
-@pr.chanaradee :+1: This PM looks great - it's ready to merge! :shipit:
+[@Pr.Chanadee] (https://github.com/pr-chanaradee)
