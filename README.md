@@ -191,7 +191,16 @@ Training Environment:
     - Mounting Brackets: To securely mount the camera and solar panel.
     - Breadboard (optional): For prototyping and testing connections.
 
-
+### :electric_plug: Hardware Connections
+1. Connecting the Camera:
+    - Attach the camera module to the CSI port on the Raspberry Pi or connect a USB camera
+2. Servo Motor Connections:
+    - Signal Wire (Orange/White): Connect to GPIO18 (PWM) on Raspberry Pi.
+    - Power Wire (Red): Connect to a 5V power source.
+    - Ground Wire (Brown/Black): Connect to the GND pin on Raspberry Pi.
+3. Solar Panel Mounting:
+    - Mount the solar panel onto the servo-controlled frame.
+    - Ensure the servo motors are calibrated for full 180° rotation.
 
 
 
