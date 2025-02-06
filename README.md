@@ -39,7 +39,7 @@
       <ul>
         <li><a href="#bookmark-model-selection">Model Selection</a></li>
         <li><a href="#mortar_board-training-process">Training Process</a></li>
-        <li><a href="microscope-model-evaluation">Model Evaluation</a></li>
+        <li><a href="#microscope-model-evaluation">Model Evaluation</a></li>
       </ul>
     </li>
   </ol>
