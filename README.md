@@ -37,8 +37,8 @@
     <li>
       <a href="#yolo-model-for-sun-detection">YOLO Model for Sun Detection</a>
       <ul>
-        <li><a href="#:bookmark:-model-selection">Model Selection</a></li>
-        <li><a href="#:mortar_board:-training-process">Training Process</a></li>
+        <li><a href="#bookmark-model-selection">Model Selection</a></li>
+        <li><a href="#mortar_board-training-process">Training Process</a></li>
         <li><a href="#hammer_and_wrench-dataset-preprocessing-and-annotation">Dataset Preprocessing And Annotation</a></li>
       </ul>
     </li>
