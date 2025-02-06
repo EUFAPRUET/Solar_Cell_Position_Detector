@@ -39,7 +39,7 @@
       <ul>
         <li><a href="#bookmark-model-selection">Model Selection</a></li>
         <li><a href="#mortar_board-training-process">Training Process</a></li>
-        <li><a href="#hammer_and_wrench-dataset-preprocessing-and-annotation">Dataset Preprocessing And Annotation</a></li>
+        <li><a href="microscope-model-evaluation>Model Evaluation</a></li>
       </ul>
     </li>
     
@@ -165,3 +165,12 @@ Model Configuration:
   - Batch size: 16
   - Learning rate: 0.001
   - Epochs: 50
+
+Training Environment:
+- Training was performed on a machine with GPU acceleration.
+- Final model was exported in .pt format for deployment on the Raspberry Pi.
+
+## :microscope: Model Evaluation
+- Accuracy: Achieved over 95% detection accuracy on test data.
+- Performance: Real-time inference at 5-10 FPS on the Raspberry Pi 5.
+- Robustness: Model performed well in varying light conditions, including partial cloud cover.
