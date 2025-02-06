@@ -211,13 +211,19 @@ Training Environment:
 ### AI Developers: [@TechTnKorn](https://github.com/TechTnKorn) [@ukp_alex](https://github.com/UkpAlex)
   - Develop and train the YOLOv8 model for real-time sun detection
   - Optimize the model for efficient performance on Raspberry Pi 5
+  - Implement OpenCV-based image processing to enhance detection accuracy
 ### Hardware & System Integration: [@EUFAPRUET](https://github.com/EUFAPRUET)
-  - Design and develop servo motor control, hardware integration, and system coordination
+  - Design and implement servo motor control for precise sun tracking
+  - Integrate Raspberry Pi with hardware components, including the camera module and solar panel
+  - Develop the system’s power management and ensure hardware reliability for continuous operation
 ### Data Scientist & Project Manager: [@Pr.Chanaradee](https://github.com/pr-chanaradee)
-  - Prepare training datasets, apply data augmentation, and analyze model performance
-  - Manage project workflow and track progress
+  - Prepare and preprocess training datasets, including data augmentation and annotation
+  - Analyze model performance, evaluate accuracy, and fine-tune hyperparameters
+  - Oversee project workflow, coordinate team efforts, and ensure timely progress
 ### Data Manager & Presentation Designer: [@fordisacar](https://github.com/fordisacar)
-  - Manage data storage, documentation, and design presentation slides
+  - Organize and maintain datasets, ensuring efficient storage and accessibility
+  - Document research findings, model performance metrics, and system configurations
+  - Design and develop presentation materials for project demonstrations and reports
 
 ## Acknowledgments & Support
   - [@titichaya](https://github.com/titichaya) - Project Supervisor
