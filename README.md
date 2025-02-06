@@ -186,7 +186,7 @@ Training Environment:
   Mounted on a movable frame, allowing dynamic positioning to maximize sunlight exposure throughout the day.
 5. ND/Solar Filter <br>
   Used to protect the camera lens from intense sunlight, ensuring clear image capture without damage.
-6. Supporting Components
+6. Supporting Components <br>
   - Wires & Connectors: For connecting components to the Raspberry Pi.
   - Mounting Brackets: To securely mount the camera and solar panel.
   - Breadboard (optional): For prototyping and testing connections.
