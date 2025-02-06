@@ -179,6 +179,10 @@ Training Environment:
 
 
 
+[titichaya](https://github.com/titichaya) - Adviser
+[@EUFAPRUET](https://github.com/EUFAPRUET) - Hardware Developer
+[@TechTnKorn](https://github.com/TechTnKorn) - Ai Developer
+[@ukp_alex](https://github.com/UkpAlex) - Ai Developer
+[@Pr.Chanaradee](https://github.com/pr-chanaradee) - Project Manager
+[@fordisacar](https://github.com/fordisacar) - Coordinator
 
-
-[@Chanaradee](https://github.com/pr-chanaradee)
