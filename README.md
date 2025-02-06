@@ -176,9 +176,9 @@ Training Environment:
 
 ## Hardware Setup
 ### :gear: Hardware Components
-1. Raspberry Pi 5
+1. Raspberry Pi 5 <br>
   The main processing unit that runs the YOLO model, processes the camera input, and controls the servo motors.
-2. Camera Module
+2. Camera Module <br>
   Used to capture real-time images of the sky for sun detection. A standard Raspberry Pi Camera Module or compatible USB camera can be used.
 
 
