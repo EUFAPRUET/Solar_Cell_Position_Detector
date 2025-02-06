@@ -138,3 +138,6 @@ The Solar Cell Position Detector requires a high-quality dataset to train its De
    | Validation Data  | 10%  |
    | Testing Data  | 10%  |
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## YOLO Model for Sun Detection
+### :bookmark: Model Selection
