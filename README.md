@@ -162,7 +162,7 @@ Model Configuration:
 - Pre-trained YOLOv8 weights were fine-tuned on the sun detection dataset.
 - Hyperparameters were adjusted to improve detection accuracy:
   - Batch size: 16
-  - Learning rate: 0.001
+  - Learning rate: 0.1
   - Epochs: 50
 
 Training Environment:
