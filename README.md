@@ -174,13 +174,12 @@ Training Environment:
 - Performance: Real-time inference at 5-10 FPS on the Raspberry Pi 5.
 - Robustness: Model performed well in varying light conditions, including partial cloud cover.
 
-### :rocket: Model Deployment
-1. Transfer the trained YOLO model to Raspberry Pi:
-  - wget https://github.com/EUFAPRUET/CPE-414_2567-2_Solar_Cell_Position_Detector/blob/main/Code/Deeplearning/SunDetectionModel.pt
-2. Install YOLO dependencies on Raspberry Pi:
-  - pip3 install ultralytics
-3. Run the detection script:
-  - python3 SunDetectCamServoPan.py
+## Hardware Setup
+### :gear: Hardware Components
+1. Raspberry Pi 5
+  The main processing unit that runs the YOLO model, processes the camera input, and controls the servo motors.
+2. Camera Module
+  Used to capture real-time images of the sky for sun detection. A standard Raspberry Pi Camera Module or compatible USB camera can be used.
 
 
 
