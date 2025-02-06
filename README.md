@@ -207,11 +207,21 @@ Training Environment:
 
 
 
+## Research & Development Team
+### AI Developers: [@TechTnKorn](https://github.com/TechTnKorn) [@ukp_alex](https://github.com/UkpAlex)
+  - Develop and train the YOLOv8 model for real-time sun detection
+  - Optimize the model for efficient performance on Raspberry Pi 5
+### Hardware & System Integration: [@EUFAPRUET](https://github.com/EUFAPRUET)
+  - Design and develop servo motor control, hardware integration, and system coordination
+### Data Scientist & Project Manager: [@Pr.Chanaradee](https://github.com/pr-chanaradee)
+  - Prepare training datasets, apply data augmentation, and analyze model performance
+  - Manage project workflow and track progress
+### Data Manager & Presentation Designer: [@fordisacar](https://github.com/fordisacar)
+  - Manage data storage, documentation, and design presentation slides
 
-[@titichaya](https://github.com/titichaya) - Adviser
-<br>[@EUFAPRUET](https://github.com/EUFAPRUET) - Hardware Developer
-<br>[@TechTnKorn](https://github.com/TechTnKorn) - Ai Developer
-<br>[@ukp_alex](https://github.com/UkpAlex) - Ai Developer
-<br>[@Pr.Chanaradee](https://github.com/pr-chanaradee) - Project Manager
-<br>[@fordisacar](https://github.com/fordisacar) - Coordinator
+## Acknowledgments & Support
+  - [@titichaya](https://github.com/titichaya) - Project Supervisor
+  - [Thai-Nitchi Institute of Technology](https://www.tni.ac.th/home/) - Supporting Institution
+  - Open-source communities and datasets that contributed to the development
+
 
