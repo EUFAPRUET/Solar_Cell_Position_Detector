@@ -34,6 +34,14 @@
         <li><a href="#hammer_and_wrench-dataset-preprocessing-and-annotation">Dataset Preprocessing And Annotation</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#yolo-model-for-sun-detection">YOLO Model for Sun Detection</a>
+      <ul>
+        <li><a href="#:bookmark:-model-selection">Model Selection/a></li>
+        <li><a href="#:mortar_board:-training-process">Training Process</a></li>
+        <li><a href="#hammer_and_wrench-dataset-preprocessing-and-annotation">Dataset Preprocessing And Annotation</a></li>
+      </ul>
+    </li>
     
   </ol>
 </details>
@@ -145,3 +153,15 @@ For sun detection, we utilized YOLOv8 Nano, a lightweight yet powerful model opt
 - High detection accuracy even in varied lighting conditions.
 - Fast inference time suitable for real-time applications.
 - Compatibility with resource-constrained hardware.
+
+### :mortar_board: Training Process
+Dataset Preparation:
+- Images were collected under various weather conditions (clear, cloudy, sunrise, sunset).
+- Annotations were done using Roboflow and saved in YOLO format.
+
+Model Configuration:
+- Pre-trained YOLOv8 weights were fine-tuned on the sun detection dataset.
+- Hyperparameters were adjusted to improve detection accuracy:
+  - Batch size: 16
+  - Learning rate: 0.001
+  - Epochs: 50
