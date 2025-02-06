@@ -180,11 +180,11 @@ Training Environment:
   The main processing unit that runs the YOLO model, processes the camera input, and controls the servo motors.
 2. Camera Module <br>
   Used to capture real-time images of the sky for sun detection. A standard Raspberry Pi Camera Module or compatible USB camera can be used.
-3. Servo Motors (e.g. SG90 ,RDS3115)
+3. Servo Motors (e.g. SG90 ,RDS3115) <br>
   Responsible for adjusting the position of the camera and the solar panel to keep the sun centered in the frame. High-torque servo motors are recommended for stable and smooth movement.
-4. Solar Panel
+4. Solar Panel <br>
   Mounted on a movable frame, allowing dynamic positioning to maximize sunlight exposure throughout the day.
-5. ND/Solar Filter
+5. ND/Solar Filter <br>
   Used to protect the camera lens from intense sunlight, ensuring clear image capture without damage.
 6. Supporting Components
   - Wires & Connectors: For connecting components to the Raspberry Pi.
