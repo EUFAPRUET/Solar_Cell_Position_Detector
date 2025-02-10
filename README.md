@@ -1,5 +1,4 @@
 <a id="readme-top"></a>
-# Solar Cell Positon Detector
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="300" height="auto" />
