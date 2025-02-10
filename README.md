@@ -1,4 +1,5 @@
 <a id="readme-top"></a>
+# Solar Cell Postion Detector Project
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="300" height="auto" />
