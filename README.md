@@ -205,7 +205,7 @@ Training Environment:
     - Ensure the servo motors are calibrated for full 180° rotation.
 
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Research & Development Team
 ### AI Developers: [@TechTnKorn](https://github.com/TechTnKorn), [@ukp_alex](https://github.com/UkpAlex)
@@ -225,9 +225,12 @@ Training Environment:
   - Document research findings, model performance metrics, and system configurations
   - Design and develop presentation materials for project demonstrations and reports
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Acknowledgments & Support
   - [@titichaya](https://github.com/titichaya) - Project Supervisor
   - [Thai-Nitchi Institute of Technology](https://www.tni.ac.th/home/) - Supporting Institution
   - Open-source communities and datasets that contributed to the development
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
