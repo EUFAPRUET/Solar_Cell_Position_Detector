@@ -5,20 +5,31 @@ import RPi.GPIO as GPIO
 from ultralytics import YOLO
 
 # ====== GPIO Setup for Servo Motor ======
-PAN_SERVO_PIN = 18
+PAN_SERVO_PIN_1 = 13
+PAN_SERVO_PIN_2 = 12
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(PAN_SERVO_PIN, GPIO.OUT)
-pan_servo = GPIO.PWM(PAN_SERVO_PIN, 50)
+GPIO.setup(PAN_SERVO_PIN_1, GPIO.OUT)
+pan_servo_1 = GPIO.PWM(PAN_SERVO_PIN_1, 50)
+GPIO.setup(PAN_SERVO_PIN_2, GPIO.OUT)
+pan_servo_2 = GPIO.PWM(PAN_SERVO_PIN_2, 50)
 
 # เริ่มต้นเซอร์โวที่ตำแหน่งกลาง (Duty Cycle ประมาณ 7 => ~90 องศา)
-pan_servo.start(7)
+pan_servo_1.start(7)
+pan_servo_2.start(7)
 time.sleep(0.4)
-pan_servo.ChangeDutyCycle(0)
+pan_servo_1.ChangeDutyCycle(0)
+pan_servo_2.ChangeDutyCycle(0)
 
 def angle_to_duty_cycle(angle):
     """แปลงองศา (0-180) ไปเป็น Duty Cycle (ประมาณ 2 - 12)"""
-    return 2 + (angle / 18.0)
+    duty_cycle_1 = 2 + (angle/18.0)
+    duty_cycle_2 = 2 + ((180-angle)/18.0)
+    pan_servo_1.ChangeDutyCycle(duty_cycle_1)
+    pan_servo_2.ChangeDutyCycle(duty_cycle_2)
+    time.sleep(0.4)
+    pan_servo_1.ChangeDutyCycle(0)
+    pan_servo_2.ChangeDutyCycle(0)
 
 # ====== YOLO Model ======
 model = YOLO("SunDetectionModel.pt")
@@ -36,7 +47,7 @@ deadzone_threshold = 0
 pan_angle = 90
 
 # เวลารอระหว่างการตรวจจับ (วินาที)
-DETECTION_INTERVAL = 10
+DETECTION_INTERVAL = 5
 
 # ====== Camera Thread ======
 class CameraThread(threading.Thread):
@@ -134,16 +145,12 @@ def main():
 
                             # หมุนเซอร์โวถ้าอยู่นอก deadzone
                             if abs(offset_x) > deadzone_threshold:
-                                pan_angle = 180 * (x_center / width)
-                                pan_angle = max(0, min(180, pan_angle))
-
-                                duty_cycle = angle_to_duty_cycle(pan_angle)
-                                pan_servo.ChangeDutyCycle(duty_cycle)
-                                time.sleep(0.4)
-                                pan_servo.ChangeDutyCycle(0)
+                                pan_angle = 40 + ((x_center / width) * (140 - 40))
+                                pan_angle = max(40, min(140, pan_angle))
+                                angle_to_duty_cycle(pan_angle)
 
                                 print(f"[MainThread] Detected Sun - X Center: {x_center}, "
-                                      f"Pan Angle: {pan_angle:.1f}, Duty Cycle: {duty_cycle:.2f}")
+                                      f"Pan Angle: {pan_angle:.1f}")
 
                             # แสดงค่าบนภาพ
                             conf_percent = conf * 100
@@ -170,7 +177,8 @@ def main():
         detection_thread.join()
 
         cv2.destroyAllWindows()
-        pan_servo.stop()
+        pan_servo_1.stop()
+        pan_servo_2.stop()
         GPIO.cleanup()
 
         print("[Main] Program terminated.")
